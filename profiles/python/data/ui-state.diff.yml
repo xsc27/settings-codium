@@ -47,5 +47,6 @@ modified:
     \"id\":\"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\
     \":[{\"when\":\"reference-list.isActive\"}]}]"
   workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7}]'
+  vscode-icons-team.vscode-icons: '{"vsicons":{"version":"11.8.0","status":2,"welcomeShown":true}}'
   ms-python.vscode-pylance: '{"insidersChannel":"off"}'
 removed: []
