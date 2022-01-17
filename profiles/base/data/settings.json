@@ -1,8 +1,21 @@
 {
+    "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "git.enableCommitSigning": true,
+    "oneDarkPro.vivid": true,
+    "python.defaultInterpreterPath": "python3",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": false,
+    "python.testing.pytestEnabled": true,
     "sonarlint.disableTelemetry": true,
+    "syncSettings.ignoredSettings": [
+        "sonarlint.connectedMode.connections.sonarcloud",
+        "sourcery.token"
+    ],
     "vim.useSystemClipboard": true,
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "vscode-icons",
