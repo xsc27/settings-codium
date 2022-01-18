@@ -1,10 +1,12 @@
 {
+    "editor.renderWhitespace": "all",
     "eslint.format.enable": true,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "git.enableCommitSigning": true,
     "oneDarkPro.vivid": true,
+    "python.analysis.typeCheckingMode": "strict",
     "prettier.trailingComma": "all",
     "python.defaultInterpreterPath": "python3",
     "python.diagnostics.sourceMapsEnabled": true,
@@ -18,7 +20,9 @@
         "sonarlint.connectedMode.connections.sonarcloud",
         "sourcery.token"
     ],
+    "vim.enableNeovim": true,
     "vim.useSystemClipboard": true,
+    "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.openDefaultSettings": true,
