@@ -1,9 +1,11 @@
 {
+    "eslint.format.enable": true,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "git.enableCommitSigning": true,
     "oneDarkPro.vivid": true,
+    "prettier.trailingComma": "all",
     "python.defaultInterpreterPath": "python3",
     "python.diagnostics.sourceMapsEnabled": true,
     "python.languageServer": "Pylance",

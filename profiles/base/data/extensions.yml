@@ -1,5 +1,11 @@
 disabled: []
 enabled:
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: eg2.vscode-npm-script
+    uuid: ae9e3eb0-3357-4cc0-90ee-598d2d384757
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: SonarSource.sonarlint-vscode
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: vscode-icons-team.vscode-icons
