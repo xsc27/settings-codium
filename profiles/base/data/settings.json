@@ -5,6 +5,7 @@
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "git.enableCommitSigning": true,
+    "gitlens.codeLens.enabled": false,
     "oneDarkPro.vivid": true,
     "python.analysis.typeCheckingMode": "strict",
     "prettier.trailingComma": "all",
@@ -26,5 +27,5 @@
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.openDefaultSettings": true,
-    "workbench.settings.useSplitJSON": true
+    "workbench.settings.useSplitJSON": true,
 }
