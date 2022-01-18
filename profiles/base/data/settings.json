@@ -16,6 +16,7 @@
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.activateEnvironment": false,
     "python.testing.pytestEnabled": true,
+    "redhat.telemetry.enabled": false,
     "sonarlint.disableTelemetry": true,
     "syncSettings.ignoredSettings": [
         "sonarlint.connectedMode.connections.sonarcloud",

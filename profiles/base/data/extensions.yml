@@ -4,6 +4,8 @@ enabled:
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: SonarSource.sonarlint-vscode
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: vscode-icons-team.vscode-icons
