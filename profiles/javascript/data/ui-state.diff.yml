@@ -1,5 +1,8 @@
 modified:
-  workbench.statusbar.hidden: '["status.workspaceTrust.1642404488493","status.workspaceTrust.0396df20a3249555b7a00872441dfa3e","status.workspaceTrust.6ae602cc269323316597a5e5e1f7f2ab"]'
+  workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":false,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8}]'
+  workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":false},{"id":"SonarLint.AllRules","isHidden":true},{"id":"SonarLint.IssueLocations","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
+  SonarSource.sonarlint-vscode: '{"FIRST_SECRET_ISSUE_DETECTED_KEY":"true"}'
+  workbench.statusbar.hidden: '["status.workspaceTrust.1642404488493","status.workspaceTrust.0396df20a3249555b7a00872441dfa3e","status.workspaceTrust.6ae602cc269323316597a5e5e1f7f2ab","status.workspaceTrust.6b359bac0d4328d6244fd597d9c36d81"]'
   workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
     \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBui\
     ltin\":true,\"views\":[{\"when\":\"openEditorsVisible\"},{},{},{\"when\":\"\
