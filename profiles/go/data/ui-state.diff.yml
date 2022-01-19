@@ -1,0 +1,62 @@
+modified:
+  SonarSource.sonarlint-vscode: '{"FIRST_SECRET_ISSUE_DETECTED_KEY":"true"}'
+  workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":false,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8}]'
+  workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
+    \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBui\
+    ltin\":true,\"views\":[{\"when\":\"openEditorsVisible\"},{},{},{\"when\":\"\
+    timelineHasProvider\"},{\"when\":\"npm:showScriptExplorer\"},{},{}]},{\"id\
+    \":\"workbench.view.search\",\"themeIcon\":{\"id\":\"search-view-icon\"},\"\
+    name\":\"Search\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.vi\
+    ew.scm\",\"themeIcon\":{\"id\":\"source-control-view-icon\"},\"name\":\"Sou\
+    rce Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
+    scm.providerCount !=
+    '0'\"},{},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"}\
+    ,{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\
+    \":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!git\
+    lens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disa\
+    bled\"},{\"when\":\"!gitlens:disabled\"}]},{\"id\":\"workbench.view.debug\",\
+    \"themeIcon\":{\"id\":\"run-view-icon\"},\"name\":\"Run and
+    Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
+    'simple'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
+    'default'\"},{\"when\":\"debugUx ==
+    'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
+    'default'\"},{\"when\":\"breakpointsExist || debugUx ==
+    'default'\"},{\"when\":\"debugConfigurationType ==
+    'pwa-chrome'\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\"id\
+    \":\"extensions-view-icon\"},\"name\":\"Extensions\",\"isBuiltin\":true,\"v\
+    iews\":[{\"when\":\"defaultExtensionViews &&
+    !hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+    hasInstalledExtensions\"},{\"when\":\"recommendedExtensions &&
+    workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews &&
+    !hasInstalledExtensions\"},{\"when\":\"recommendedExtensions\"},{\"when\":\
+    \"defaultExtensionViews &&
+    !config.extensions.showRecommendationsOnlyOnDemand\"},{\"when\":\"defaultEx\
+    tensionViews && hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews
+    &&
+    hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
+    \":\"searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\
+    \"when\":\"searchDisabledExtensions\"},{\"when\":\"searchOutdatedExtensions\
+    \"},{\"when\":\"searchBuiltInExtensions\"},{\"when\":\"searchWorkspaceUnsup\
+    portedExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExt\
+    ensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\"searchUnsupportedWo\
+    rkspaceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions\"},{\
+    \"when\":\"searchUnsupportedWorkspaceExtensions &&
+    virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+    virtualWorkspace\"}]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\
+    \":\"remote-explorer-view-icon\"},\"name\":\"Remote
+    Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extens\
+    ion.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\
+    \"isBuiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
+    0\"},{\"when\":\"go.hasProfiles\"}]},{\"id\":\"workbench.view.extension.ref\
+    erences-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"References\
+    \",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"}]},{\
+    \"id\":\"workbench.view.extension.gitlens\",\"iconUrl\":{\"$mid\":1,\"path\
+    \":\"%%EXTENSION_DATA_PATH%%/eamodio.gitlens-11.7.0/images/gitlens-activity\
+    bar.svg\",\"scheme\":\"file\"},\"name\":\"GitLens\",\"isBuiltin\":false,\"v\
+    iews\":[{\"when\":\"gitlens:views:welcome:visible\"}]}]"
+  workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"go.test.profile","isHidden":false}]'
+  golang.go: '{"go.extensionVersion":"0.30.0","latestGoVersions":{"timestamp":1642575206884,"goVersions":[{"binpath":"go
+    get golang.org/dl/go1.17.6","label":"Go 1.17.6"},{"binpath":"go get
+    golang.org/dl/go1.16.13","label":"Go
+    1.16.13"}]},"forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.7.1","major":0,"minor":7,"patch":1,"prerelease":[],"build":[],"version":"0.7.1"}}'
+removed: []
