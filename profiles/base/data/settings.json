@@ -14,7 +14,6 @@
     "python.languageServer": "Pylance",
     "python.formatting.provider": "black",
     "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.terminal.activateEnvironment": false,
     "python.testing.pytestEnabled": true,
     "redhat.telemetry.enabled": false,
     "sonarlint.disableTelemetry": true,
