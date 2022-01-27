@@ -6,6 +6,8 @@
     "files.trimTrailingWhitespace": true,
     "git.enableCommitSigning": true,
     "gitlens.codeLens.enabled": false,
+    "go.lintTool": "golangci-lint",
+    "go.formatTool": "gofumpt",
     "oneDarkPro.vivid": true,
     "python.analysis.typeCheckingMode": "strict",
     "prettier.trailingComma": "all",
