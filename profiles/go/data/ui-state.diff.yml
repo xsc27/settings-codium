@@ -1,5 +1,7 @@
 modified:
-  SonarSource.sonarlint-vscode: '{"FIRST_SECRET_ISSUE_DETECTED_KEY":"true"}'
+  workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"go.test.profile","isHidden":false}]'
+  workbench.welcomePage.hiddenCategories: '["Intermediate","Setup","Beginner"]'
+  workbench.statusbar.hidden: '["status.workspaceTrust.1642404488493","status.workspaceTrust.0396df20a3249555b7a00872441dfa3e","status.workspaceTrust.cbc32909556aae174c638dd59dae723e","status.workspaceTrust.9c39ba54992e316b40ca847bf120f59b","status.workspaceTrust.6b359bac0d4328d6244fd597d9c36d81","status.workspaceTrust.fe8f7c8e248009528801de992aff28ea","status.workspaceTrust.91f29a75d27c11b15a2033ff3114d664"]'
   workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
     \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBui\
     ltin\":true,\"views\":[{\"when\":\"openEditorsVisible\"},{},{},{\"when\":\"\
@@ -53,12 +55,10 @@ modified:
     \":\"%%EXTENSION_DATA_PATH%%/eamodio.gitlens-11.7.0/images/gitlens-activity\
     bar.svg\",\"scheme\":\"file\"},\"name\":\"GitLens\",\"isBuiltin\":false,\"v\
     iews\":[{\"when\":\"gitlens:views:welcome:visible\"}]}]"
-  workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"go.test.profile","isHidden":false}]'
-  golang.go: '{"go.extensionVersion":"0.30.0","latestGoVersions":{"timestamp":1642575206884,"goVersions":[{"binpath":"go
+  workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":false,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8}]'
+  golang.go: '{"go.extensionVersion":"0.30.0","latestGoVersions":{"timestamp":1643171884712,"goVersions":[{"binpath":"go
     get golang.org/dl/go1.17.6","label":"Go 1.17.6"},{"binpath":"go get
     golang.org/dl/go1.16.13","label":"Go
-    1.16.13"}]},"forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.7.1","major":0,"minor":7,"patch":1,"prerelease":[],"build":[],"version":"0.7.1"}}'
-  workbench.grid.width: "1024"
-  workbench.grid.height: "768"
-  workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":false,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8}]'
+    1.16.13"}]},"forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.7.1","major":0,"minor":7,"patch":1,"prerelease":[],"build":[],"version":"0.7.1"},"goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2022-01-26T05:08:04.699Z\"}"}'
+  workbench.sidebar.size: "477"
 removed: []
