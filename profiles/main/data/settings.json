@@ -1,0 +1,38 @@
+{
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "editor.renderWhitespace": "all",
+    "eslint.format.enable": true,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "git.enableCommitSigning": true,
+    "gitlens.codeLens.enabled": false,
+    "go.lintTool": "golangci-lint",
+    "go.formatTool": "gofumpt",
+    "oneDarkPro.vivid": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "prettier.trailingComma": "all",
+    "python.defaultInterpreterPath": "python3",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.testing.pytestEnabled": true,
+    "redhat.telemetry.enabled": false,
+    "sonarlint.disableTelemetry": true,
+    "syncSettings.ignoredSettings": [
+        "sonarlint.connectedMode.connections.sonarcloud",
+        "sourcery.token"
+    ],
+    "terraform.codelens.referenceCount": true,
+    "terraform-ls.experimentalFeatures": {},
+    "vim.enableNeovim": true,
+    "vim.useSystemClipboard": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+}

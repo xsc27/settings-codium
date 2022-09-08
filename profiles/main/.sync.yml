@@ -1,2 +1,3 @@
 ignoredSettings:
+  - sonarlint.connectedMode.connections.sonarcloud
   - sourcery.token
