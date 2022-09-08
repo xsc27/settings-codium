@@ -1,0 +1,6 @@
+hostname: ""
+profile: main
+repository:
+  type: git
+  url: git@github.com:xsc27/settings-codium.git
+  branch: trunk
