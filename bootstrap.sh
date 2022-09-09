@@ -18,4 +18,4 @@ esac
 codium --install-extension zokugun.sync-settings
 mkdir -p ${PLUGIN_SETTINGS}
 git clone --depth 1 git@github.com:xsc27/settings-codium.git "${PLUGIN_SETTINGS}/repository"
-cp "${PLUGIN_SETTINGS}/repository/settings.yml" "${PLUGIN_SETTINGS}"
+cp -v "${PLUGIN_SETTINGS}/repository/settings.yml" "${PLUGIN_SETTINGS}"
