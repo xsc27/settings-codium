@@ -50,3 +50,21 @@ codium --install-extension zokugun.sync-settings
 git clone --depth 1 origin git@github.com:xsc27/settings-codium.git \
   ~/Library/Application Support/VSCodium/User/globalStorage/zokugun.sync-settings/repository
 ```
+
+## Mac
+
+[Microsoft/vscode Issue #7426, comment-277737150](https://github.com/Microsoft/vscode/issues/7426#issuecomment-277737150)
+
+### VSCodium
+
+```sh
+sudo chown -R $USER ~/Library/Caches/com.vscodium.ShipIt
+xattr -dr com.apple.quarantine /Applications/VSCodium.app
+```
+
+### VSCode
+
+```sh
+sudo chown -R $USER ~/Library/Caches/com.microsoft.VSCode.ShipIt
+xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
+```
