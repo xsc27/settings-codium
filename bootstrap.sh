@@ -13,13 +13,13 @@ case "${OS}" in
     PLUGIN_SETTINGS="${HOME}/Library/Application Support/${PLUGIN_PATH}"
     ;;
   *)
-    printf -- "ERROR: ${OS} support not implemented."
+    printf -- "ERROR: %s support not implemented." "${OS}"
     exit 1
     ;;
 esac
 
 codium --force --install-extension zokugun.sync-settings
-mkdir -p ${PLUGIN_SETTINGS}
+mkdir -p "${PLUGIN_SETTINGS}"
 git clone --depth 1 git@github.com:xsc27/settings-codium.git "${PLUGIN_SETTINGS}/repository" \
   || git --git-dir "${PLUGIN_SETTINGS}/repository/.git" pull --rebase
 cp -v "${PLUGIN_SETTINGS}/repository/settings.yml" "${PLUGIN_SETTINGS}"
