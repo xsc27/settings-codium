@@ -45,11 +45,7 @@ synced with [Sync Settings](https://github.com/zokugun/vscode-sync-settings).
 
 ## [Sync Settings](https://github.com/zokugun/vscode-sync-settings).
 
-```sh
-codium --install-extension zokugun.sync-settings
-git clone --depth 1 origin git@github.com:xsc27/settings-codium.git \
-  ~/Library/Application Support/VSCodium/User/globalStorage/zokugun.sync-settings/repository
-```
+See `bootstrap.sh`
 
 ## Mac
 

@@ -1,13 +1,16 @@
 #!/usr/bin/env sh
 
-PLUGIN_PATH='User/globalStorage/zokugun.sync-settings'
+PLUGIN_PATH='VSCodium/User/globalStorage/zokugun.sync-settings'
+
+set -eu
 
 OS="$(uname)"
 case "${OS}" in
-#   'Linux')
-#     ;;
+  'Linux')
+    PLUGIN_SETTINGS="${XDG_CONFIG_HOME}/${PLUGIN_PATH}"
+    ;;
   'Darwin')
-    PLUGIN_SETTINGS="${HOME}/Library/Application Support/VSCodium/${PLUGIN_PATH}"
+    PLUGIN_SETTINGS="${HOME}/Library/Application Support/${PLUGIN_PATH}"
     ;;
   *)
     printf -- "ERROR: ${OS} support not implemented."
@@ -15,7 +18,9 @@ case "${OS}" in
     ;;
 esac
 
-codium --install-extension zokugun.sync-settings
+codium --force --install-extension zokugun.sync-settings
 mkdir -p ${PLUGIN_SETTINGS}
-git clone --depth 1 git@github.com:xsc27/settings-codium.git "${PLUGIN_SETTINGS}/repository"
+git clone --depth 1 git@github.com:xsc27/settings-codium.git "${PLUGIN_SETTINGS}/repository" \
+  || git --git-dir "${PLUGIN_SETTINGS}/repository/.git" pull --rebase
 cp -v "${PLUGIN_SETTINGS}/repository/settings.yml" "${PLUGIN_SETTINGS}"
+
